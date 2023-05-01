@@ -50,7 +50,8 @@ This project needs the following tools / services:
 -   The student needs to be able to spawn up a clean Ubuntu 18.04 system. Therefore Docker is recommended with NO prior knowledge.
 -   A text editor or IDE (Integrated Development Editor) of your convenience (Visual Code, Notepad++, Vim, Emacs, IntelliJ, etc.)
 
-### How to use the Makefile
+## How to use the Makefile
+### Lifecycle
 To execute the make file use the following syntax `make <command>`
 `build`:   Generate the website from the markdown and configuration files in the directory dist/.
 `clean`:   Cleanup the content of the directory dist/
