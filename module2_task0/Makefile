@@ -12,6 +12,7 @@ stop:	## Stop the application with the command kill.
 	pkill $(TARGET)
 
 clean:	## Stop the application. Delete the binary and the log file.
+	stop
 	rm $(TARGET) $(TARGET).log
 
 test:	## Test the application.
