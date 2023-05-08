@@ -2,7 +2,7 @@
 TARGET=awesome-api
 
 build:	## Compile the source code of the application to a binary.
-	make lint
+	golangci-lint run
 	go mod tidy
 	go build -o $(TARGET)
 
