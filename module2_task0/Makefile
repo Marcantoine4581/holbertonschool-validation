@@ -11,8 +11,8 @@ run:	## Run the application in background by executing the binary.
 stop:	## Stop the application with the command kill.
 	pkill $(TARGET)
 
-clean:	## Stop the application. Delete the binary and the log file.
-	stop
+clean: 	## Stop the application. Delete the binary and the log file.
+	pkill $(TARGET)
 	rm $(TARGET) $(TARGET).log
 
 test:	## Test the application.
