@@ -51,7 +51,7 @@ To execute the make file use the following syntax `make <command>`
 
 `test`:    Test the application.
 
-`lint`:	## Lint go lang code.
+`lint`:    Lint go lang code.
 
 `help`:    Prints out the list of targets and their usage.
 
