@@ -23,7 +23,7 @@ test:	## Test the application.
 lint:	## Lint go lang code
 	golangci-lint run
 
-unit-tests:
+unit-tests:	## Run unit tests
 	go test -v -short -coverprofile=coverage-units.out
 
 help:	## Prints out the list of targets and their usage.

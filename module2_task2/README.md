@@ -41,17 +41,19 @@ This project needs the following tools / services:
 ### Lifecycle
 To execute the make file use the following syntax `make <command>`
 
-`build`:   Compile the source code of the application to a binary.
+`build`:        Compile the source code of the application to a binary.
 
-`run`:     Run the application in background by executing the binary.
+`run`:          Run the application in background by executing the binary.
 
-`stop`:    Stop the application with the command kill.
+`stop`:         Stop the application with the command kill.
 
-`clean`:   Stop the application. Delete the binary and the log file.
+`clean`:        Stop the application. Delete the binary and the log file.
 
-`test`:    Test the application.
+`test`:         Test the application.
 
-`lint`:    Lint go lang code.
+`lint`:         Lint go lang code.
 
-`help`:    Prints out the list of targets and their usage.
+`unit-tests`:   Run unit tests
+
+`help`:         Prints out the list of targets and their usage.
 
