@@ -55,7 +55,7 @@ To execute the make file use the following syntax `make <command>`
 
 `unit-tests`:   Run unit tests
 
-`integration-tests`:	Run integration tests
+`integration-tests`:	Run integration tests.
 
 `help`:      Prints out the list of targets and their usage.
 
