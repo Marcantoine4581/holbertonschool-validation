@@ -3,6 +3,7 @@ TARGET=awesome-api
 
 build:	## Compile the source code of the application to a binary.
 	golangci-lint run
+	go mod tidy
 	go build
 
 run:	## Run the application in background by executing the binary.
