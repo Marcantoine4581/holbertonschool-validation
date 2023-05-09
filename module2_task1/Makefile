@@ -14,7 +14,7 @@ stop:	## Stop the application with the command kill.
 
 clean: 	## Stop the application. Delete the binary and the log file.
 	pkill $(TARGET) || true
-	rm $(TARGET) $(TARGET).log
+	rm -f $(TARGET) $(TARGET).log
 
 test:	## Test the application.
 	curl http://localhost:9999 
