@@ -33,4 +33,8 @@ To execute the make file use the following syntax `make <command>`
 `post`:    Create a new blog post whose filename and title come from the
  environment variables POST_TITLE and POST_NAME.
 
+ `check`:    Lint markdonw source, check dead links
+
+ `validate`: Should validate the file ./dist/index.html by using the command line Holberton’s W3C Validator.
+
 `help`:    Prints out the list of targets and their usage.
