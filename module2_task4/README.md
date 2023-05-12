@@ -35,6 +35,7 @@ To execute the make file use the following syntax `make <command>`
 
  `check`:    Lint markdonw source, check dead links
 
- `validate`: Should validate the file ./dist/index.html by using the command line Holberton’s W3C Validator.
+ `validate`: Should validate the file ./dist/index.html by using the command
+  line Holberton’s W3C Validator.
 
 `help`:    Prints out the list of targets and their usage.
