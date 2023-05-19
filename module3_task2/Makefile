@@ -31,10 +31,10 @@ test:	## Test the application.
 	$(MAKE) integration-tests
 	$(MAKE) validate
 
-unit-tests: ## Run unit tests
+unit-tests:	## Run unit tests
 	go test -v -short -coverprofile=$(COVERAGE)-units.out
 
-integration-tests: ## Run integration tests
+integration-tests:	## Run integration tests
 	go test -v -coverprofile=$(COVERAGE)-integrations.out
 
 lint:	## Lint go lang code
@@ -47,6 +47,9 @@ check:	## Lint markdonw source, check dead links
 
 validate:	## Validate the file dist/index.html using the command line Holberton’s W3C Validator.
 	python3 /opt/W3C-Validator/w3c_validator.py ./dist/index.html || true
+
+package:	## Create a zip file containing the awesome-api binary and the dist/ directory
+	zip -r awesome-website.zip awesome-api dist
 
 help:	## Show this help usage.
 	@sed -ne '/@sed/!s/## //p' $(MAKEFILE_LIST)
